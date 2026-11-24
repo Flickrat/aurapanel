@@ -1,0 +1,37 @@
+name: rabbit_aura
+description: "Dark Aura Panel - Rabbit Green (Flutter Clone)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.5
+  google_mobile_ads: ^5.3.1
+  in_app_purchase: ^3.2.1
+  in_app_review: ^2.0.10
+  app_tracking_transparency: ^2.0.6
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Biger
+      fonts:
+        - asset: assets/fonts/biger.ttf
+    - family: Small
+      fonts:
+        - asset: assets/fonts/small.ttf
